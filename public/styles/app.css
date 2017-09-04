@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.app {
+	height: 100vh;
+	width: 100vw;
+	font-weight: 300;
+	overflow: hidden;
+}
+.canvas {
+  position:fixed;
+  left:0;
+  top:0;
+	height: 100vh;
+	width: 100vw;
+}
+.sidebar {
+	position: fixed;
+	top:0;
+	right: 0;
+	height: 100vh;
+  width:13vw;
+  min-width: 180px;
+	background-color: #D2009A;
+	/*background-color: #263238;*/
+}
+.section {
+	color: black;
+	border-bottom: 2px black solid;
+	padding-bottom:12px;
+}
+
+/* Candidate defined styles go here! */
+
+
+.section-content-wrapper{
+	width:90%;
+	margin:auto;
+}
+
+.section__heading{
+	font-size:17px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+.toolbar{
+	display:flex;
+	justify-content: space-between;
+}
+
+.stamp-preview{
+	max-width:110px;
+	max-height:110px;
+}
+
+.preview-wrapper{
+	text-align:center;
+  margin-top:20px;
+}
+
+.tool-button:focus{
+  outline:none;
+}
+
+.button{
+	
+  color:rgb(0,0,0);
+	border-radius:4px;
+	border-style:solid;
+	padding: 3px 4px;
+  letter-spacing: 1px;
+	font-weight: bold;
+	font-size:10px;
+  border-style:solid;
+  border-width: thin;
+  border-color:white;
+  background: linear-gradient(DarkGray, #707070);
+  background: -moz-linear-gradient(DarkGray, #707070);
+}
+
+.button::-moz-focus-inner{
+  border:0;
+}
+
+.button:hover{
+  cursor:pointer;
+}
+
+.button.selected-tool-button{
+
+  box-shadow: 0px 0px 0px 1px black;
+  background: linear-gradient(#707070, DarkGray);
+  background: -moz-linear-gradient(#707070, DarkGray);
+}
+
+.number-input{
+	width:100%;
+}
+
+
+#stamp-upload{
+	display:none;
+}
+
+.brush-color{
+  width:60px;
+  height:25px;
+  border-width:1px;
+  border-color:buttonface;
+}
+
+.reset-button:focus, .save-button:focus, .stamp-upload-pointer:focus{
+  outline-color: rgb(77, 144, 254);
+  outline-style: auto;
+  outline-width: 1px;
+  outline-offset: 0px;
+  outline-width:2px;
+}
