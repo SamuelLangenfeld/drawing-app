@@ -12,6 +12,6 @@ This is a React/Redux app that runs in the user's browser. It was completed as a
 
 You will need to have Node.js installed.
 
-From the respository's command line run "npm install" to build the necessary modules. After that just run "npm start" to use the application. It should open your browser to localhost:3000 automatically.
+From the respository's command line run "npm install" to build the necessary modules. The installation can take some time. After that just run "npm start" to use the application. It should open your browser to localhost:3000 automatically.
 
 The app has only been tested in Chrome and Firefox.
